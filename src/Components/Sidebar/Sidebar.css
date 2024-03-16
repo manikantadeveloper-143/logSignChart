@@ -1,0 +1,36 @@
+.sidebar-container>div{
+  padding:10px;
+}
+.sidebar-container>div>div{
+  text-align: center;
+}
+.sidebar-lists{
+  text-align: center;
+}
+.sidebar-lists>a>li{
+  list-style-type: none;
+  text-decoration: none;
+  color:var(--black)
+}
+hr{
+  margin-top: 10px;
+}
+.sidebar-filter>div{
+  padding:10px;
+}
+.sidebar-filter>div>div{
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.concurrent{
+  background-color: red;
+  margin-top: 30px;
+  font-size: larger;
+}
+.concurrent>a{
+  list-style-type: none;
+  font-weight: bold;
+  font-size: larger;
+  color: var(--black);
+}

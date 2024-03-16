@@ -1,0 +1,36 @@
+.login-container{
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+.login-card{
+  width:clamp(200px,30vw,400px);
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.login-card>div{
+  margin-top: 10px;
+}
+.login-card-form>div{
+   padding:10px;
+}
+.login-card-form>div>input{
+  width:90%;
+  padding:10px;
+  border-radius: 5px;
+}
+.login-card-form>div>button{
+  width:60%;
+  padding:10px;
+  border-radius: 10px;
+}
+a{
+  list-style-type: none;
+  margin-left: 10px;
+  text-decoration: none;
+}
+h6{
+  color: var(--red);
+}

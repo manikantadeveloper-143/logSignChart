@@ -1,0 +1,12 @@
+.content{
+  display: grid;
+  grid-template-columns: clamp(150px,30vw,250px) auto;
+  column-gap: 10px;
+}
+.content>div{
+  padding:10px;
+}
+.content>div:nth-child(1){
+  background-color: var(--gray);
+  color:var(--black)
+}
